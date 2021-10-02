@@ -1,0 +1,17 @@
+# 🚨 Don't change the code below 👇
+age = input("What is your current age?")
+# 🚨 Don't change the code above 👆
+
+#Write your code below this line 👇
+total_years =90
+
+total_months = total_years*12
+total_weeks = total_years*52
+total_days = total_months*365
+
+years_left = total_years - int(age)
+months_left = total_months - int(age)*12
+weeks_left = total_weeks - int(age)*52
+days_left = total_days-int(age)*365
+
+print(f"you have {years_left} years left\n, you have {weeks_left} weeks left\n, your have {months_left} months left\n, you have {days_left} days left")
