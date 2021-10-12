@@ -1,0 +1,13 @@
+# Split string method
+names_string = input("Give me everybody's names, separated by a comma. ")
+names = names_string.split(", ")
+# 🚨 Don't change the code above 👆
+#NOT ALLOWED TO USE CHOICE()
+#Write your code below this line 👇
+number_of_guests = len(names)
+
+import random
+choice_random_number = random.randint(0,number_of_guests-1)
+person_who_pays_bill = names[choice_random_number]
+
+print(f"The person who pays the bill is {person_who_pays_bill}")
