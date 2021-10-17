@@ -12,13 +12,13 @@ print(student_heights)
 number = 0
 for height in student_heights:
  number= number + 1
-print(number)
+#print(number)
 
 #Calculating the sum of student_heights
 total = 0
 for height in student_heights:
   total = total + height
-print (total)
+#print (total)
 
 #Calculating the average
 average = round(total/number,2)
